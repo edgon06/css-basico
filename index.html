@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Probando CSS</title>
+
+         <!-- Asignar una hoja de estilos a esta pagina -->
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    
+    <body>
+
+        <!-- Elemento contenedor -->
+        <div id="container">
+
+            <!-- Cabecera o titulo principal de la pagina -->
+            <header>
+                <h1>Titulo vergas</h1>
+            </header>
+
+            <!-- Menu de navegacion en la pagina -->
+            <nav>
+                <!-- Es una lista sin numeros -->
+                <ul>
+                    <!-- Asi se añade un elemento a la lista-->
+                    <li>
+                        <a href="index.html">Enlace 1</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Enlace 2</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Enlace 3</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Enlace 4</a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="clearfix"></div>
+            
+            <!-- Una seccion que contendra articulos -->
+            <section id="content">
+
+                <!-- Articulos (Titulos con sus respectivos parrafos de informacion) -->
+                <article class = "article">
+                    <h2>Titulo del articulo</h2>
+                    <p>Texto ALV</p>
+                </article>
+
+                <article class="article">
+                    <h2>Titulo del articulo 2</h2>
+                    <p>Texto ALV...2</p>
+                </article>
+
+            </section>
+
+            <!-- La barra lateral -->
+            <aside>
+
+                <h2>Barra lateral</h2>
+                <!-- Un pequeño formulario para buscar cosas... que de momento no hace nada -->
+                <form>
+                    <input type="text">
+                    <input type="submit" value="Buscar">
+                </form>
+
+            </aside>
+            
+            <!-- un div clase clearfix sera utilizado para anular la regla float por debajo de dicho div en el contenedor (ver css)-->
+            <div class="clearfix"></div>
+            
+            <!-- Pie de pagina -->
+            <footer>
+                Una pagina de prueba &copy; 2020
+            </footer>
+        </div>
+        
+    </body>
+</html>
